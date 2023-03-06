@@ -51,9 +51,9 @@ Estas variables representan el tamaño de la matriz al igual que el numero de ag
 Para llevar acabo la sumulacion se usa la funcion get_grid(self) la cual permite guardar el grid para cada uno de los agentes y su estado, se guarda el estado de las celdas para cada uno de los steps.
 En base a la animacion que como mencionado anteriormente se hace usando un matriz con los estados de todos los agentes, se usaron 3 funciones mas para analizar los resultados de la representacion de la infeccion en base a las reglas establecidad.
 
--get_life()
--get_death()
--get_infected()
+- get_life()
+- get_death()
+- get_infected()
 
 Estas 3 funciones estan encargadas de analizar y contar la cantidad de celdas verdes, rojas y azules en cada uno de los steps graficados para asi llevar a cabo diferentes graficas con las cuales se representaria la infeccion del COVID-19.
    
