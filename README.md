@@ -20,6 +20,7 @@ Cuando un agente es marcado rojo este deja de tener acciones.
 Las variables que determinan el funcionamiento del sistemas son las siguientes
 - infected_neighbours 
 - live_neighbours
+
 Estas 2 variables se usan dentro del agente principal GameLifeModel y se usan para representar la cantidad de vecinos infectados que una celda verde(No infectada) tiene en base a esto se lleva a cabo las condiciones que revisan si una celda verde tiene 4 o mas vecinos infectados y en base a eso cambiar el estado a rojo en base al resultado de probabiliidad.
 
 Para llevar acabo la sumulacion se usa la funcion get_grid(self) la cual permite guardar el grid para cada uno de los agentes y su estado, se guarda el estado de las celdas para cada uno de los steps.
