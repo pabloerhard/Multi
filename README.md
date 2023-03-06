@@ -17,7 +17,7 @@ Cuando un agente es marcado azul este tiene una probalidad del 10% de convertirs
 
 Cuando un agente es marcado rojo este deja de tener acciones.
 
-## Variable de Agente
+## Variables de Agente
 
 Las variables que determinan el funcionamiento del sistemas son las siguientes
 - infected_neighbours 
